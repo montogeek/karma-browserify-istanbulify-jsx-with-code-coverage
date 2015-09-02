@@ -46,7 +46,7 @@ module.exports = function(config) {
 
     browserify: {
         debug: true,
-        transform: ['istanbulify']
+        transform: ['coffeeify', 'istanbulify']
     },
 
 
