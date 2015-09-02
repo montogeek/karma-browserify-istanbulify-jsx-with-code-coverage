@@ -7,18 +7,27 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/karma start"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "browserify-istanbul": "^0.2.1",
+    "chai": "^3.2.0",
+    "coffeeify": "^1.1.0",
+    "istanbulify": "^0.1.0",
+    "karma": "^0.13.9",
     "karma-browserify": "^4.3.0",
+    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.5.1",
     "karma-mocha": "^0.2.0",
     "karma-phantomjs-launcher": "^0.2.1",
-    "phantomjs": "^1.9.18"
-  },
-  "dependencies": {
-    "moment": "^2.10.6"
+    "mocha": "^2.3.0",
+    "moment": "^2.10.6",
+    "phantomjs": "^1.9.18",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
   }
 }
